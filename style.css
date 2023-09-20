@@ -1,0 +1,68 @@
+
+
+
+
+body{
+    background:black;
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: lobster;
+    font-size: 60px;
+    color: beige;
+    /* padding-top:none;
+    margin-top: none;
+    margin-bottom:none;
+ */
+
+}
+.imgcontainer{
+    display: flex;
+    justify-content:center;
+    /* gap: 50px; */
+    width: 100%;
+    /* height: 400px; */
+
+    background: #000;
+}
+.dice1{
+    margin-top: 15px;
+    margin-right: 50px;
+    /* width: 30%; */
+    /* height:00px; */
+    /* background: blue; */
+    
+}
+.dice2{
+    margin-top: 15px;
+    margin-right: 45px;
+    /* width:30%; */
+    /* height:00px; */
+    /* background:blue ; */
+}
+img{
+    height: 215px;
+    object-fit: cover;
+}
+.dice1,.dice2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+h3{
+    font-family: Mynerve;
+    color: beige;
+    font-size: 30px;
+}
+h1{
+    font-size: larger;
+}
